@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Footer"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/tabs">
+
+        <items jcr:primaryType="nt:unstructured">
+
+            <!-- Tab 1: Footer Info -->
+            <tab1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                    jcr:title="Footer Info">
+
+                <items jcr:primaryType="nt:unstructured">
+                    <footer_heading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Title"
+                            name="./footer_heading"/>
+                    <infodales
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Text Title"
+                            name="./infodales"/>
+                    <infodales_link
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                            fieldLabel="Text Link"
+                            name="./infodales_link"/>
+                </items>
+            </tab1>
+
+            <!-- Tab 2: Footer Links -->
+            <tab2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                    jcr:title="Footer Links">
+
+                <items jcr:primaryType="nt:unstructured">
+                    <footer_link
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            composite="{Boolean}true">
+                        <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                name="./footer_link">
+                            <items jcr:primaryType="nt:unstructured">
+                                <footerGroup
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <footer_name
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Name"
+                                                name="./footer_name"/>
+                                        <footer_url
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Url"
+                                                name="./footer_url"/>
+                                    </items>
+                                </footerGroup>
+                            </items>
+                        </field>
+                    </footer_link>
+                </items>
+            </tab2>
+
+            <!-- Tab 3: Social Icons -->
+            <tab3
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                    jcr:title="Social Icons">
+
+                <items jcr:primaryType="nt:unstructured">
+                        <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                >
+                            <items jcr:primaryType="nt:unstructured">
+                                <socialGroup
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <icon_img1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="LinkedIn Icon Image"
+                                                name="./icon_img1"
+                                                rootPath="/content"/>
+                                        <icon_img2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Email Icon Image"
+                                                name="./icon_img2"
+                                                rootPath="/content"/>
+                                    </items>
+                                </socialGroup>
+                            </items>
+                        </field>
+                </items>
+            </tab3>
+
+        </items>
+    </content>
+</jcr:root>

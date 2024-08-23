@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: SPA React - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.spa.react:aem-spa.react.ui.content:1.0.0-SNAPSHO
+ T
+Content-Package-Description: UI content package for SPA React
+Content-Package-Dependencies: com.spa.react:aem-spa.react.ui.apps:1.0.0-
+ SNAPSHOT
+Content-Package-Dependencies-Locations: com.spa.react:aem-spa.react.ui.a
+ pps:1.0.0-SNAPSHOT=maven:com.spa.react:aem-spa.react.ui.apps:1.0.0-SNAP
+ SHOT:zip
+Content-Package-Roots: /conf/spa-react,/content/dam/spa-react/asset.jpg,
+ /content/experience-fragments/spa-react,/content/spa-react
+

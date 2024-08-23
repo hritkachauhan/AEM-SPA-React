@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>SPA React - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2024-08-23T07:40:18.873Z</entry>
+<entry key="groupId">com.spa.react</entry>
+<entry key="name">aem-spa.react.all</entry>
+<entry key="description">All content package for SPA React</entry>
+<entry key="artifactId">aem-spa.react.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.spa.react</entry>
+</properties>

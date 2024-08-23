@@ -1,0 +1,7 @@
+com\spa\react\core\filters\LoggingFilterTest.class
+com\spa\react\core\servlets\SimpleServletTest.class
+com\spa\react\core\schedulers\SimpleScheduledTaskTest.class
+com\spa\react\core\listeners\SimpleResourceListenerTest.class
+com\spa\react\core\models\HelloWorldModelTest.class
+com\spa\react\core\testcontext\AppAemContext.class
+com\spa\react\core\testcontext\AppAemContext$1.class

@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Bundle-Category: SPA React
+Bundle-Description: Core bundle for SPA React
+Bundle-ManifestVersion: 2
+Bundle-Name: SPA React - Core
+Bundle-SymbolicName: aem-spa.react.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.spa.react.core.filters;version="1.0";uses:="javax.
+ servlet",com.spa.react.core.listeners;version="1.0";uses:="org.apache
+ .sling.api.resource.observation",com.spa.react.core.models;version="1
+ .0";uses:="com.adobe.cq.export.json,javax.annotation,org.apache.sling
+ .api.resource,org.apache.sling.models.annotations,org.apache.sling.mo
+ dels.annotations.injectorspecific",com.spa.react.core.schedulers;vers
+ ion="1.0",com.spa.react.core.servlets;version="1.0";uses:="javax.serv
+ let,org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.cq.export.j
+ son;version="[2.0,3)",com.day.cq.wcm.api;version="[1.27,2)",com.spa.r
+ eact.core.filters;version="[1.0,2)",com.spa.react.core.listeners;vers
+ ion="[1.0,2)",com.spa.react.core.schedulers;version="[1.0,2)",com.spa
+ .react.core.servlets;version="[1.0,2)",javax.servlet;version="[3.1,4)
+ ",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request
+ ;version="[2.4,3)",org.apache.sling.api.resource;version="[2.11,3)",o
+ rg.apache.sling.api.resource.observation;version="[1.2,2)",org.apache
+ .sling.api.servlets;version="[2.2,3)",org.apache.sling.models.annotat
+ ions;version="[1.5,2)",org.apache.sling.models.annotations.injectorsp
+ ecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Private-Package: com.spa.react.core.models.impl,com.spa.react.core.mod
+ els.pojo
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.spa.react.core.filters.LoggingFilter.x
+ ml,OSGI-INF/com.spa.react.core.listeners.SimpleResourceListener.xml,O
+ SGI-INF/com.spa.react.core.schedulers.SimpleScheduledTask.xml,OSGI-IN
+ F/com.spa.react.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.spa.react.core.models.HelloWorldModel,com.spa
+ .react.core.models.impl.AboutImpl,com.spa.react.core.models.impl.Bann
+ erImpl,com.spa.react.core.models.impl.ContactImpl,com.spa.react.core.
+ models.impl.CourseImpl,com.spa.react.core.models.impl.ExpertiseImpl,c
+ om.spa.react.core.models.impl.FacilityImpl,com.spa.react.core.models.
+ impl.FooterImpl,com.spa.react.core.models.impl.HeaderImpl,com.spa.rea
+ ct.core.models.impl.ServiceImpl,com.spa.react.core.models.impl.Vision
+ Impl,com.spa.react.core.models.pojo.CoursePojo,com.spa.react.core.mod
+ els.pojo.ExpertisePojo,com.spa.react.core.models.pojo.FacilitiesPojo,
+ com.spa.react.core.models.pojo.FooterPojo,com.spa.react.core.models.p
+ ojo.FooterSocialIconsPojo,com.spa.react.core.models.pojo.HeaderPojo,c
+ om.spa.react.core.models.pojo.ServicePojo,com.spa.react.core.models.p
+ ojo.VisionPojo
+

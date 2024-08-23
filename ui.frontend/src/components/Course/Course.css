@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.course {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 30px 0px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.course p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 50px;
+    text-align: center;
+}
+.row {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img {
+    width: 100%;
+    display: block;
+    opacity:1;
+}
+
+.campus-col img:hover {
+    opacity: 0.5; /* Change opacity on hover */
+}
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5;
+}
+.layer h3 {
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3 {
+   opacity: 1;
+   transform: translate(-50%,-230px);
+}
