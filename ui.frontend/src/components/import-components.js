@@ -28,6 +28,8 @@ import './Expertise/Expertise';
 import './Footer/Footer';
 import './Service/Service';
 import './Facility/Facility';
+import './BlogList/BlogList';
+import './BlogCategory/BlogCategory';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 

@@ -41,15 +41,17 @@ Service-Component: OSGI-INF/com.spa.react.core.filters.LoggingFilter.x
  F/com.spa.react.core.servlets.SimpleServlet.xml
 Sling-Model-Classes: com.spa.react.core.models.HelloWorldModel,com.spa
  .react.core.models.impl.AboutImpl,com.spa.react.core.models.impl.Bann
- erImpl,com.spa.react.core.models.impl.ContactImpl,com.spa.react.core.
- models.impl.CourseImpl,com.spa.react.core.models.impl.ExpertiseImpl,c
- om.spa.react.core.models.impl.FacilityImpl,com.spa.react.core.models.
- impl.FooterImpl,com.spa.react.core.models.impl.HeaderImpl,com.spa.rea
- ct.core.models.impl.ServiceImpl,com.spa.react.core.models.impl.Vision
- Impl,com.spa.react.core.models.pojo.CoursePojo,com.spa.react.core.mod
- els.pojo.ExpertisePojo,com.spa.react.core.models.pojo.FacilitiesPojo,
- com.spa.react.core.models.pojo.FooterPojo,com.spa.react.core.models.p
- ojo.FooterSocialIconsPojo,com.spa.react.core.models.pojo.HeaderPojo,c
- om.spa.react.core.models.pojo.ServicePojo,com.spa.react.core.models.p
- ojo.VisionPojo
+ erImpl,com.spa.react.core.models.impl.BlogCategoryImpl,com.spa.react.
+ core.models.impl.BlogListImpl,com.spa.react.core.models.impl.ContactI
+ mpl,com.spa.react.core.models.impl.CourseImpl,com.spa.react.core.mode
+ ls.impl.ExpertiseImpl,com.spa.react.core.models.impl.FacilityImpl,com
+ .spa.react.core.models.impl.FooterImpl,com.spa.react.core.models.impl
+ .HeaderImpl,com.spa.react.core.models.impl.ServiceImpl,com.spa.react.
+ core.models.impl.VisionImpl,com.spa.react.core.models.pojo.BlogCatego
+ ryPojo,com.spa.react.core.models.pojo.BlogListPojo,com.spa.react.core
+ .models.pojo.CoursePojo,com.spa.react.core.models.pojo.ExpertisePojo,
+ com.spa.react.core.models.pojo.FacilitiesPojo,com.spa.react.core.mode
+ ls.pojo.FooterPojo,com.spa.react.core.models.pojo.FooterSocialIconsPo
+ jo,com.spa.react.core.models.pojo.HeaderPojo,com.spa.react.core.model
+ s.pojo.ServicePojo,com.spa.react.core.models.pojo.VisionPojo
 

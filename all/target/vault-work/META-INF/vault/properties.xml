@@ -3,7 +3,7 @@
 <properties>
 <comment>SPA React - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2024-08-23T07:40:18.873Z</entry>
+<entry key="created">2024-08-26T13:23:17.764Z</entry>
 <entry key="groupId">com.spa.react</entry>
 <entry key="name">aem-spa.react.all</entry>
 <entry key="description">All content package for SPA React</entry>

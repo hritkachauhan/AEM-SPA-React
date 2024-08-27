@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.blog-tiles {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+.blog-tiles-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 0;
+    justify-content: center;
+}
+.blog-tiles-list a {
+    box-shadow: 3px 3px 10px rgb(172, 172, 172);
+    border-radius: 8px;
+}
+.blog-item {
+    margin-top: 20px;
+    margin: 11px;
+    height: fit-content;
+}
+#dispatcher .dispatcherTag {
+    background-color: #3c6e71;
+    color: white;
+}
+.blog-item .blog-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.publishDate {
+    color: #999;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
+}
