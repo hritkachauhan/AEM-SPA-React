@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.spa.react:aem-spa.react.ui.apps:1.0.0-SNAPSHOT=maven:com.spa.react:aem-spa.react.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2024-08-23T07:40:16.311Z</entry>
+<entry key="created">2024-08-26T13:23:16.721Z</entry>
 <entry key="groupId">com.spa.react</entry>
 <entry key="description">UI content package for SPA React</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
